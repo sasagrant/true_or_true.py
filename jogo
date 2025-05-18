@@ -1,0 +1,196 @@
+perguntas = [
+    "Qual foi o momento mais feliz da sua vida?",
+    "Se pudesse viajar para qualquer lugar agora, para onde iria?",
+    "O que mais te atrai em uma pessoa?",
+    "Se tivesse que escolher um filme para representar sua vida, qual seria?",
+    "O que te faz sentir realmente vivo(a)?",
+    "Se pudesse jantar com qualquer pessoa no mundo, viva ou morta, quem seria?",
+    "Qual é o seu maior medo?",
+    "O que você mais valoriza em uma amizade?",
+    "Se pudesse reviver um dia do seu passado, qual seria?",
+    "Qual foi a coisa mais louca que você já fez?",
+    "Qual não pode faltar para você na parte física de um namoro?", 
+    "Já ficou com alguém do Tinder?", 
+    "Qual foi a coisa mais embaraçosa que seus pais já pegaram você fazendo?", 
+    "Qual seria a primeira coisa que você faria se acordasse por um dia sendo do gênero oposto?", 
+    "Qual foi a coisa mais cruel que você já fez com um namorado ou namorada?", 
+    "Qual foi a coisa mais estranha que você já fez em frente ao espelho?", 
+    "Das pessoas nesta sala, com quem você mais gostaria de ficar?", 
+    "Você já enviou alguma fotografia comprometedora para a pessoa errada?", 
+    "Quem foi a última pessoa com que ficou?", 
+    "Qual foi o lugar mais esquisito ou curioso em que ficou com alguém?", 
+    "Qual o maior segredo que já escondeu de algum namorado ou namorada?", 
+    "Já teve algum sonho 'sugestivo' com alguém desta sala?", 
+    "Quando foi a última vez que te deram um fora e como lidou com isso?", 
+    "Qual a maior mentira que já contou para algum namorado ou namorada e nunca foi descoberta?", 
+    "Qual foi a maior mentira que contou para faltar o trabalho?", 
+    "Com quem gostaria de esquecer que ficou?", 
+    "O que você nunca toparia fazer pelo(a) namorado(a)?", 
+    "Com quem quer muito ficar de novo?", 
+    "Já mentiu para vencer uma briga?", 
+    "Já mandou a mesma fotografia para mais de uma pessoa?", 
+    "Já ficou com algum professor?", 
+    "Já viu algum vizinho trocando de roupa sem querer?", 
+    "O que faria se pegasse seu namorado ou namorada com outro(a)?", 
+    "Já sentiu ranço de alguém nesta sala?", 
+    "Já foi apaixonado(a) por alguém nesta sala?", 
+    "Já foi traído(a)?", 
+    "Já terminou um relacionamento porque se interessou por outra pessoa?", 
+    "O que te entrega quando está afim de alguém?", 
+    "Qual foi o máximo de tempo que já ficou sem beijar alguém?", 
+    "Já teve que esconder marcas deixadas no seu pescoço?", 
+    "Tem alguma tatuagem escondida?", 
+    "Já ficou com o(a) ex-namorado(a) de um(a) amigo(a)?", 
+    "Em quem desta roda tem vontade de dar um beijo?", 
+    "Já ficou com alguém famoso ou semi famoso?", 
+    "Já ficou com alguém sabendo que era comprometido(a)?", 
+    "Já foi o(a) amante?", 
+    "Em qual lugar do corpo gosta de receber massagem?", 
+    "Já estudou para ser melhor no momento do romance? Qual a bibliografia?", 
+    "Qual é o tipo de provocação a que você não resiste?", 
+    "Qual é a sua técnica de conquista que mais funciona?", 
+    "Já ficou com pai ou mãe de amigo(a)?", 
+    "Já ficou com primo(a)?", 
+    "Já traiu algum namorado ou namorada?", 
+    "Já sofreu algum tipo de acidente na hora H?", 
+    "Já passou vergonha com o crush e não conseguiu mais ficar com a pessoa?", 
+    "Já percebeu que cometeu um erro de roupas bem na hora H?", 
+    "Já ficou com mais de uma amigo do mesmo grupo?", 
+    "Já inventou um namorado ou namorada para fazer ciúmes ao ex?", 
+    "Já nadou sem roupa?", 
+    "Tem algum piercing em um lugar que não podemos ver?", 
+    "O que mais te faz sentir borboletas no estômago?", 
+    "O que você faria se tivesse uma dor de barriga em um banheiro público, mas acabasse o papel higiênico?", 
+    "Qual foi a razão mais ridícula pela qual terminou com alguém?", 
+    "Quando foi a última vez que chorou e por quê?", 
+    "Conte uma coisa que espera que seus pais nunca descubram.", 
+    "Qual é a mania mais nojenta que você tem?", 
+    "De qual pessoa não famosa você tem inveja?", 
+    "O que você adora, mas tem vergonha de admitir?", 
+    "Qual foi a coisa mais embaraçosa que já fez?", 
+    "Qual foi a pessoa mais aleatória que stalkeou nas redes sociais?", 
+    "Qual foi a última coisa que pesquisou no seu telefone?", 
+    "Quantos dias já passou sem tomar banho?", 
+    "Já fez xixi nas calças depois de adulto?", 
+    "Qual é o apelido mais vergonhoso que alguém já lhe deu?", 
+    "Qual site no seu histórico de navegação te deixaria constrangido se alguém visse?", 
+    "Você já fez cocô nas calças em público?", 
+    "Qual foi o sonho mais assustador que já teve?", 
+    "Quem é a pessoa mais bonita da roda?", 
+    "Qual foi a coisa mais embaraçosa que você já fez bêbado?", 
+    "Qual o passeio que você já fez que foi mais 'rolê errado' e você só queria fugir?",    
+    "Conte algo infantil que você ainda faz.", 
+    "Qual é o seu medo mais sombrio?", 
+    "Qual foi o pior presente que já deu para alguém?", 
+    "Com quem se arrepende de já ter se envolvido?", 
+    "Qual é a coisa mais estranha ou vergonhosa que já fez por dinheiro?", 
+    "Se pudesse mudar de vida com uma celebridade por um dia, com quem seria?", 
+    "O que você faria se fosse do sexo oposto por uma semana?", 
+    "O que a maioria das pessoas pensa que é verdade sobre você, mas não é?", 
+    "Quando foi a última vez que fez xixi na cama?", 
+    "Qual foi a maior conquista que já teve?", 
+    "Já se arrependeu imediatamente após enviar uma mensagem? Qual foi?", 
+    "Qual foi o momento mais inapropriado em que já soltou pum?", 
+    "Quando foi a última vez que não conseguiu chegar a tempo ao banheiro?", 
+    "Qual é a maior mentira que já contou para alguém da sua família?", 
+    "Você tem alguma lacuna de conhecimento? Algo simples que todos sabem fazer, mas você não", 
+    "Qual a maior vergonha que você já passou no meio da rua?", 
+    "Qual a foto mais constrangedora que tem no seu telefone?", 
+    "Se acha bonito(a)?", 
+    "Que erro simples você ainda comete com frequência?", 
+    "Dá uma olhada dentro do vaso sanitário antes de dar descarga?", 
+    "O que não consegue viver sem?", 
+    "Qual o 'caminho' online mais longo que já fez para stalkear alguém?", 
+    "Qual a maior vergonha que já passou em termos de erro em roupa?", 
+    "Já passou alguma vergonha no cinema?", 
+    "Qual a mania de limpeza que você tem e os outros acham frescura?", 
+    "Qual o talento estranho que você tem?", 
+    "Se tivesse que beijar um dos jogadores, quem seria?", 
+    "Por que você terminou com seu último namorado ou namorada?", 
+    "Qual a mistura de comidas estranhas de que você gosta?", 
+    "Você já vomitou em público e teve que engolir?", 
+    "Já sentiu ranço/antipatia de alguém desta roda?", 
+    "Se um(a) amigo(a) do mesmo sexo falasse que está a fim de você, você ficaria com ele?", 
+    "Já ficou com o(a) ex de algum melhor amigo seu?", 
+    "É verdade que você já acobertou uma traição de um(a) amigo(a) bem próximo(a)?", 
+    "O primeiro amor é o melhor que se tem na vida?", 
+    "Já ficou com alguém desta roda?", 
+    "Se arrepende em quem votou nas últimas eleições para presidente?", 
+    "Sempre lava a roupa após usar apenas uma vez?", 
+    "Se tivesse que escolher, preferiria saber quando ou como irá morrer?", 
+    "Já terminou com alguém e pegou um(a) amigo(a) para fazer ciúmes?", 
+    "O que você já pegou emprestado e 'esqueceu' de devolver de propósito?", 
+    "Já teve um relacionamento tóxico e só percebeu após terminar?", 
+    "Se tivesse que beijar um dos jogadores, quem seria?", 
+    "Acredita que a personalidade do ser humano é determinada no momento do nascimento?", 
+    "Fazer terapia: é essencial ou inútil?", 
+    "Já teve inveja de alguém desta roda?", 
+    "Se considera uma pessoa egoísta?", 
+    "Você vive ou apenas existe?", 
+    "Entre um amor e uma amizade, o que você escolhe?", 
+    "Já pensou que estava grávida ou havia engravidado alguém?", 
+    "Qual o site que você mais acessa quando está sozinho(a)?", 
+    "Fale quem é o seu melhor amigo.", 
+    "Os livros são sempre melhores que os filmes em que foram baseados?", 
+    "Já aceitou namorar alguém por pena ou por ficar sem graça em recusar o pedido?",
+    "O que acha de quem mantém amizade com os(as) ex?", 
+    "Qual foi a a pior decisão que já tomou na vida?", 
+    "Você acredita no amor?", 
+    "Acredita em destino?", 
+    "O número de curtidas em um post pode afetar a sua autoestima?", 
+    "O que é a fé para você?", 
+    "Já ignorou mensagens de alguém desta roda de propósito e fingiu que esqueceu?", 
+    "Você se ama?", 
+    "Se pudesse, como escolheria morrer?", 
+    "Qual a maior loucura que faria por um amigo?", 
+    "Qual hábito seu podem considerar estranho ou feio?", 
+    "Acredita em relacionamentos monogâmicos?", 
+    "Vale tudo por amor?", 
+    "O que é mais importante: família, dinheiro ou Deus?", 
+    "Você gosta dos seus parentes?", 
+    "Se você fosse morrer hoje, do que você se arrependeria?", 
+    "Por qual situação difícil
+
+]
+
+# Listas para controle de perguntas
+perguntas_restantes = perguntas.copy()
+perguntas_sorteadas = []
+
+def sortear_pergunta():
+    global perguntas_restantes, perguntas_sorteadas
+    if not perguntas_restantes:
+        perguntas_restantes = perguntas.copy()
+        perguntas_sorteadas.clear()
+    pergunta = random.choice(perguntas_restantes)
+    perguntas_restantes.remove(pergunta)
+    perguntas_sorteadas.append(pergunta)
+    pergunta_label.config(text=pergunta)
+
+def voltar_pergunta():
+    if len(perguntas_sorteadas) > 1:
+        pergunta_atual = perguntas_sorteadas.pop()
+        perguntas_restantes.insert(0, pergunta_atual)
+        pergunta_label.config(text=perguntas_sorteadas[-1])
+
+# Criar a interface gráfica
+root = tk.Tk()
+root.title("Sorteador de Perguntas")
+root.geometry("600x400")
+root.configure(bg="#2C3E50")  # Cor de fundo
+
+# Estilo do rótulo da pergunta
+pergunta_label = tk.Label(root, text="Clique no botão para sortear uma pergunta", wraplength=500, 
+                          font=("Arial", 14, "bold"), pady=20, bg="#2C3E50", fg="white")
+pergunta_label.pack(pady=20)
+
+# Estilo dos botões
+botao_style = {"font": ("Arial", 12, "bold"), "fg": "white", "bg": "#3498DB", "activebackground": "#2980B9", "width": 20, "height": 2}
+
+sortear_botao = tk.Button(root, text="Sortear Pergunta", command=sortear_pergunta, **botao_style)
+sortear_botao.pack(pady=10)
+
+voltar_botao = tk.Button(root, text="Voltar", command=voltar_pergunta, **botao_style)
+voltar_botao.pack(pady=10)
+
+root.mainloop()
